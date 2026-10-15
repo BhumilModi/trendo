@@ -2,7 +2,7 @@
 
 import { refresh } from "next/cache";
 import { redirect } from "next/navigation";
-import { logIn, logOut, requireUser, signUp } from "@/lib/auth";
+import { logIn, logOut, renewSession, requireUser, signUp } from "@/lib/auth";
 import * as game from "@/lib/game";
 
 type AuthState = { error: string; username: string; mode: string } | null;
@@ -29,6 +29,7 @@ export async function openCardAction(storyId: number) {
 
 export async function completeCardAction(storyId: number) {
   const user = await requireUser();
+  await renewSession();
   const result = await game.completeCard(user.id, storyId);
   refresh();
   return result;

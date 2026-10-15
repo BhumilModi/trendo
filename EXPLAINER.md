@@ -37,7 +37,7 @@ I wanted something people would open every day because it's useful, not only bec
 - Points live in an append-only ledger, and every total is computed from it. Spending points doesn't lower your level or leaderboard place.
 - Streak repair only works for days after you joined. Otherwise a new account could patch the 7 back issues and get a 7-day streak on day one. (I found this hole while testing.)
 - Days follow India time (`Asia/Kolkata`).
-- Login: username + 4-digit PIN, hashed with scrypt, and locked for 15 minutes after 5 wrong tries.
+- Login: username + 4-digit PIN, hashed with scrypt, and locked for 15 minutes after 5 wrong tries. You sign up once per phone: the session lasts 90 days and renews every time you read, so regular readers never see the login screen again.
 
 **Content**
 - A nightly job (Vercel Cron, 23:00 IST) pulls headlines from Hacker News, TechCrunch, The Verge and Ars Technica. Gemini picks the five that matter and writes the cards in a fixed JSON shape. The server then **validates** the result: 5 stories, known topics, different companies, source links that really came from the feeds. If validation fails, nothing is saved.

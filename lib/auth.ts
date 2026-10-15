@@ -30,10 +30,7 @@ async function checkPin(pin: string, stored: string): Promise<boolean> {
 
 const sha256 = (s: string) => createHash("sha256").update(s).digest("hex");
 
-async function startSession(userId: number) {
-  const token = randomBytes(32).toString("base64url");
-  const expires = Date.now() + SESSION_DAYS * 86_400_000;
-  await run("INSERT INTO sessions (token_hash, user_id, expires_at) VALUES (?, ?, ?)", [sha256(token), userId, expires]);
+async function setSessionCookie(token: string) {
   (await cookies()).set(COOKIE, token, {
     httpOnly: true,
     sameSite: "lax",
@@ -41,6 +38,26 @@ async function startSession(userId: number) {
     maxAge: SESSION_DAYS * 86_400,
     path: "/",
   });
+}
+
+async function startSession(userId: number) {
+  const token = randomBytes(32).toString("base64url");
+  const expires = Date.now() + SESSION_DAYS * 86_400_000;
+  await run("INSERT INTO sessions (token_hash, user_id, expires_at) VALUES (?, ?, ?)", [sha256(token), userId, expires]);
+  await setSessionCookie(token);
+}
+
+/** Push a live session another 90 days out. Called when someone reads, so regular readers are never logged out. */
+export async function renewSession() {
+  const token = (await cookies()).get(COOKIE)?.value;
+  if (!token) return;
+  const now = Date.now();
+  const renewed = await run("UPDATE sessions SET expires_at = ? WHERE token_hash = ? AND expires_at > ?", [
+    now + SESSION_DAYS * 86_400_000,
+    sha256(token),
+    now,
+  ]);
+  if (renewed) await setSessionCookie(token);
 }
 
 /** Returns an error message, or null on success. */
