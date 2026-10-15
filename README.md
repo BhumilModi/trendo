@@ -2,7 +2,7 @@
 
 Five tech stories a day, in plain English. Read each one, keep your streak, climb the weekly board.
 
-- **Live:** https://trendo-sigma.vercel.app
+- **Live:** https://trend-o.vercel.app
 - **What I built and why:** [EXPLAINER.md](EXPLAINER.md)
 
 ## Run it locally
