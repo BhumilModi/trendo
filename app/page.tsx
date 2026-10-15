@@ -87,11 +87,11 @@ export default async function Today() {
                 <span style={{ display: "grid", gap: 6, justifyItems: "start" }}>
                   <span className="item-no">{String(story.position).padStart(2, "0")}</span>
                   {state === "read" ? (
-                    <span aria-label="Read">
+                    <span role="img" aria-label="Read">
                       <Tick />
                     </span>
                   ) : state === "current" ? (
-                    <span aria-label="Up next">
+                    <span role="img" aria-label="Up next">
                       <Flag />
                     </span>
                   ) : null}
