@@ -2,7 +2,7 @@
 
 Five tech stories a day, in plain English. Read each one, keep your streak, climb the weekly board.
 
-- **Live:** _add your Vercel URL here_
+- **Live:** https://trendo-sigma.vercel.app
 - **What I built and why:** [EXPLAINER.md](EXPLAINER.md)
 
 ## Run it locally
@@ -52,6 +52,18 @@ Vercel's filesystem doesn't persist, so production uses [Turso](https://turso.te
 2. **Vercel:** import the GitHub repo (framework: Next.js, default settings).
 3. Add environment variables: `TURSO_DATABASE_URL`, `TURSO_AUTH_TOKEN`, `GEMINI_API_KEY`, `CRON_SECRET`.
 4. Deploy. Tables are created on the first request.
+
+Or from the terminal with the [Vercel CLI](https://vercel.com/docs/cli):
+
+```bash
+npm i -g vercel
+vercel login
+vercel link
+vercel env add TURSO_DATABASE_URL production   # repeat for each variable
+vercel deploy --prod
+```
+
+`.vercelignore` keeps `.env` and `local.db` out of CLI uploads.
 
 `vercel.json` schedules `/api/cron/generate` daily at 17:30 UTC (23:00 IST), so tomorrow's stories exist before midnight in India. Vercel sends the `CRON_SECRET` header itself.
 

@@ -1,0 +1,8 @@
+# Never upload secrets or local data with `vercel deploy`
+.env
+.env.local
+.env*.local
+local.db*
+.impeccable
+.next
+node_modules
