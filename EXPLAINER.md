@@ -30,7 +30,9 @@ I wanted something people would open every day because it's useful, not only bec
 - Cards are written in short sentences with simple words, and technical terms explained. The generator's prompt asks for this, and the fallback cards follow the same rules.
 - Button and error text is plain: "Keep reading", "Name or PIN is wrong."
 
-**Because the rewards are worth real money**
+**Built as if points were worth real money**
+
+Trendo's points don't pay out anything. But your users earn things that are worth real money to them, so I treated points the way you would have to: nothing would need to be rebuilt to give them a real value later.
 - **The server decides everything.** The browser never sends a score or a time. The 15-second rule is checked on the server's clock: "next" is refused unless 15 seconds have passed since that card was opened.
 - Cards must be read **in order**, so you can't open all five at once and wait out one timer.
 - One claim per thing, enforced by the database: each card, puzzle, and repair can earn points once (unique keys on the points ledger). Two fast taps can't pay twice.
@@ -49,7 +51,8 @@ News agencies used to send stories over a teleprinter wire on yellow paper. Tren
 
 ## What I left out (and what I'd add next)
 
-- **Phone-number login (OTP).** With money involved, production needs one account per verified phone number and device. A PIN is weak, and anyone can make many accounts to farm the leaderboard. I skipped it because it needs an SMS provider and costs money, and it would block reviewers from testing.
+- **Cashing out points.** Points have no money value today. Paying out would need a payments partner, identity checks, and a review step for suspicious earnings, on top of the protections already in place.
+- **Phone-number login (OTP).** If points ever carried money, production would need one account per verified phone number and device. A PIN is weak, and anyone can make many accounts to farm the leaderboard. I skipped it because it needs an SMS provider and costs money, and it would block reviewers from testing.
 - **Proof of reading.** 15 seconds on a card doesn't prove anyone read it; you could look away. The quiz on missed days and the puzzle do test memory. Next I'd add an optional one-question check on some cards, with points weighted toward it.
 - **Human review of generated cards.** An editor approving the next day's set before midnight would catch AI mistakes. Today the guard is validation plus a source link on every card.
 - **Notifications** ("your streak ends in 2 hours"), **friends and leagues**, **other languages** (Hindi first), **offline reading** with a service worker.
