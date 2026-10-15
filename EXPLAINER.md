@@ -23,7 +23,7 @@ I wanted something people would open every day because it's useful, not only bec
 - Every page is rendered on the server and usable before the JavaScript arrives. Interactive code exists only where it has to: the reading timer, the puzzle, the quiz, and the login form.
 - System fonts only and about 6 KB of CSS. Story photos are resized to AVIF/WebP by Next.js: about 0.7 KB per list thumbnail and 5 KB per reader photo, around 30 KB a day. Illustrations are inline SVG drawn in code, so they cost no extra requests.
 - Big tap targets, and tap only (no dragging, which is unreliable on cheap touchscreens).
-- Lighthouse on the live site, mobile mode (a mid-range phone on slow 4G): performance **99** on the sign-up page and **95** on the daily page, with the main content painted in about 2 seconds. Accessibility, best practices and SEO all score 95–100.
+- Lighthouse on the live site, mobile mode (a mid-range phone on slow 4G): performance **100** on the sign-up page and **96** on the daily page, with the main content painted in about 1 second. Accessibility, best practices and SEO score **100** on both.
 - Honest number: first load is about **145 KB of gzipped JavaScript**, and roughly 115 KB of that is React + Next.js itself. That's over my ~100 KB goal. Getting below it means leaving Next.js (for example Preact or plain HTML forms). I chose the framework's speed of building and kept our own code small (~20 KB).
 
 **For readers with English as a second language**
