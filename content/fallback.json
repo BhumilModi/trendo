@@ -1,0 +1,611 @@
+[
+  [
+    {
+      "headline": "Anthropic releases Claude Opus 5.5 at lower prices",
+      "what": "Anthropic launched Opus 5.5, a new version of its Claude AI model. It costs less to use than before. Anthropic says it is the strongest model it has tested so far.",
+      "why": "Cheaper top models let more companies and people use advanced AI.",
+      "category": "AI",
+      "sourceUrl": "https://techcrunch.com/2026/09/22/anthropic-releases-opus-5-5-with-lower-prices-and-fable-level-performance/",
+      "sourceName": "TechCrunch",
+      "company": "Anthropic",
+      "question": "What changed about the price of Opus 5.5?",
+      "options": [
+        "It is more expensive",
+        "It is cheaper",
+        "It is free for everyone"
+      ],
+      "answerIndex": 1,
+      "imageUrl": "https://techcrunch.com/wp-content/uploads/2026/01/GettyImages-2252871842.jpg?w=1024"
+    },
+    {
+      "headline": "Qualcomm's new phone chip runs big AI models on the device",
+      "what": "Qualcomm announced two new chips for smartphones. The top chip can run a 30-billion-parameter AI model directly on the phone. This means the phone does not need to send the work to the internet.",
+      "why": "AI that runs on the phone can be faster and keep your data more private.",
+      "category": "Devices",
+      "sourceUrl": "https://techcrunch.com/2026/09/22/qualcomm-launches-two-new-smartphone-chips-with-emphasis-on-ai/",
+      "sourceName": "TechCrunch",
+      "company": "Qualcomm",
+      "question": "How many new smartphone chips did Qualcomm announce?",
+      "options": [
+        "Two",
+        "One",
+        "Five"
+      ],
+      "answerIndex": 0,
+      "imageUrl": "https://techcrunch.com/wp-content/uploads/2026/09/assets_2026_09_1789671614_Snapdragon-8-Elite-Extreme-Gen-6-and-Snapdragon-8-Elite-Gen-6-Image-2-Embargo-Sep-22-10am-HT-1pm-PT.jpg?resize=1200,675"
+    },
+    {
+      "headline": "Some Supabase apps are leaking users' personal data",
+      "what": "Supabase is a popular database service for building apps. Researchers found that some apps built on it show people's data openly on the web. Many of these apps were made quickly with AI tools and were not set up safely.",
+      "why": "Apps built fast with AI still need correct security settings to protect users.",
+      "category": "Security",
+      "sourceUrl": "https://techcrunch.com/2026/09/25/some-supabase-customers-are-publicly-exposing-reams-of-peoples-data-to-the-web/",
+      "sourceName": "TechCrunch",
+      "company": "Supabase",
+      "question": "Why did these Supabase apps expose data?",
+      "options": [
+        "Supabase sold the data",
+        "A power cut broke them",
+        "They were not set up securely"
+      ],
+      "answerIndex": 2,
+      "imageUrl": "https://techcrunch.com/wp-content/uploads/2026/09/supabase-2279843922.jpg?resize=1200,800"
+    },
+    {
+      "headline": "Databricks buys cloud spreadsheet startup Row Zero",
+      "what": "Databricks, a company that sells data tools, bought the startup Row Zero. Row Zero makes a spreadsheet that runs in the cloud (on internet servers). Databricks has bought several companies this year and wants to buy more.",
+      "why": "Big data companies are adding simple tools like spreadsheets to reach more users.",
+      "category": "Dev & Open Source",
+      "sourceUrl": "https://techcrunch.com/2026/09/24/databricks-buys-row-zero-and-is-scouting-for-more-startups-to-acquire/",
+      "sourceName": "TechCrunch",
+      "company": "Databricks",
+      "question": "What kind of product does Row Zero make?",
+      "options": [
+        "A video app",
+        "A cloud spreadsheet",
+        "A smartwatch"
+      ],
+      "answerIndex": 1,
+      "imageUrl": "https://techcrunch.com/wp-content/uploads/2026/09/Navy-shopping-cart-e1790268797534.png?w=735"
+    },
+    {
+      "headline": "Vibe-coding app Lovable passes $600M in yearly revenue",
+      "what": "Lovable lets people build apps by describing them to an AI. This is often called \"vibe coding\". Its yearly revenue rate is now more than $600 million. Apps made with Lovable get almost a billion views each month.",
+      "why": "It shows that many non-programmers now pay to build software with AI.",
+      "category": "Business & Startups",
+      "sourceUrl": "https://techcrunch.com/2026/09/24/lovables-annualized-revenue-crosses-600m-as-vibe-coding-takes-off/",
+      "sourceName": "TechCrunch",
+      "company": "Lovable",
+      "question": "About how many monthly views do apps made with Lovable get?",
+      "options": [
+        "About a billion",
+        "About a million",
+        "About a thousand"
+      ],
+      "answerIndex": 0,
+      "imageUrl": "https://techcrunch.com/wp-content/uploads/2026/09/Fabin-Hedin-Lovable.jpg?resize=1200,675"
+    }
+  ],
+  [
+    {
+      "headline": "ElevenLabs v4 can copy a voice from a 10-second clip",
+      "what": "ElevenLabs released v4, a new AI model that turns text into speech. It works in 90 languages and gives more control over emotion in the voice. It can copy a person's voice from a 10-second recording.",
+      "why": "Realistic voice copying helps creators but also makes voice scams easier.",
+      "category": "AI",
+      "sourceUrl": "https://techcrunch.com/2026/09/28/elevenlabs-new-v4-speech-model-supports-more-expression-control-and-90-languages/",
+      "sourceName": "TechCrunch",
+      "company": "ElevenLabs",
+      "question": "How many languages does ElevenLabs v4 support?",
+      "options": [
+        "10",
+        "50",
+        "90"
+      ],
+      "answerIndex": 2,
+      "imageUrl": "https://techcrunch.com/wp-content/uploads/2025/01/ElevenLabs-feat.jpg?resize=1200,669"
+    },
+    {
+      "headline": "Meta introduces AI glasses with no camera",
+      "what": "Meta showed new smart glasses with an AI assistant but no camera. Without a camera, the glasses are lighter. Meta says the battery can last up to 12 hours.",
+      "why": "Glasses without a camera may worry people less about being secretly filmed.",
+      "category": "Devices",
+      "sourceUrl": "https://techcrunch.com/2026/09/23/meta-introduces-camera-free-ai-glasses/",
+      "sourceName": "TechCrunch",
+      "company": "Meta",
+      "question": "How long can the battery of Meta's camera-free glasses last?",
+      "options": [
+        "Up to 2 hours",
+        "Up to 12 hours",
+        "Up to 3 days"
+      ],
+      "answerIndex": 1,
+      "imageUrl": "https://techcrunch.com/wp-content/uploads/2026/09/ray-ban-audio.png?resize=1200,635"
+    },
+    {
+      "headline": "Kiteworks tells customers to shut down servers before an attack",
+      "what": "Kiteworks helps companies send large amounts of data over the internet. It told customers to turn off their servers. It said police had warned it about a cyberattack that could happen very soon.",
+      "why": "Shutting servers down stops work, so the company must see the threat as very serious.",
+      "category": "Security",
+      "sourceUrl": "https://techcrunch.com/2026/09/25/kiteworks-urges-customers-to-shut-down-their-servers-amid-imminent-threat-of-cyberattack/",
+      "sourceName": "TechCrunch",
+      "company": "Kiteworks",
+      "question": "Who warned Kiteworks about the coming attack?",
+      "options": [
+        "Law enforcement",
+        "Its customers",
+        "A news website"
+      ],
+      "answerIndex": 0,
+      "imageUrl": "https://techcrunch.com/wp-content/uploads/2024/12/data-breach-2024-roundup.jpg?resize=1200,675"
+    },
+    {
+      "headline": "OpenAI's Codex gets reusable cloud workspaces for coders",
+      "what": "OpenAI updated Codex, its AI coding tool. Developers can now keep coding workspaces in the cloud and use them from any device. It also added voice control, code review tools, and a tool that scans code for security problems.",
+      "why": "AI coding tools are becoming full work environments, not just helpers.",
+      "category": "Dev & Open Source",
+      "sourceUrl": "https://techcrunch.com/2026/09/29/openai-gives-codex-reusable-cloud-environments-that-work-across-devices/",
+      "sourceName": "TechCrunch",
+      "company": "OpenAI",
+      "question": "What new way to control the Codex command-line tool was added?",
+      "options": [
+        "A game controller",
+        "Hand gestures",
+        "Voice controls"
+      ],
+      "answerIndex": 2,
+      "imageUrl": "https://techcrunch.com/wp-content/uploads/2026/07/OpenAI-logo-green.jpg?w=1024"
+    },
+    {
+      "headline": "AMD will buy Fei-Fei Li's World Labs for $8.2 billion",
+      "what": "Chip maker AMD agreed to buy the AI startup World Labs for $8.2 billion. World Labs was started by Fei-Fei Li, a famous AI researcher. She will join AMD as its chief scientist.",
+      "why": "Chip makers are buying AI companies to compete in more than just hardware.",
+      "category": "Business & Startups",
+      "sourceUrl": "https://techcrunch.com/2026/09/28/amd-will-acquire-fei-fei-lis-world-labs-for-8-2-billion/",
+      "sourceName": "TechCrunch",
+      "company": "AMD",
+      "question": "What role will Fei-Fei Li have at AMD?",
+      "options": [
+        "Head of sales",
+        "Chief scientist",
+        "Board observer only"
+      ],
+      "answerIndex": 1,
+      "imageUrl": "https://techcrunch.com/wp-content/uploads/2024/10/GettyImages-1833911955.jpg?resize=1200,800"
+    }
+  ],
+  [
+    {
+      "headline": "Google releases Gemini 4 Argon, its most powerful AI model",
+      "what": "Google released Gemini 4 Argon, its newest AI model. Google calls it its most powerful model so far. It is made mainly for coding and cybersecurity (protecting computers from attacks).",
+      "why": "The race between AI labs is now focused on work tasks like writing code.",
+      "category": "AI",
+      "sourceUrl": "https://techcrunch.com/2026/09/30/google-releases-gemini-4-argon-called-its-most-powerful-model-yet/",
+      "sourceName": "TechCrunch",
+      "company": "Google",
+      "question": "Which kind of work is Gemini 4 Argon mainly made for?",
+      "options": [
+        "Coding and cybersecurity",
+        "Music and art",
+        "Cooking recipes"
+      ],
+      "answerIndex": 0,
+      "imageUrl": "https://techcrunch.com/wp-content/uploads/2026/06/gemini-app-GettyImages-2276204472-1.jpg?w=1024"
+    },
+    {
+      "headline": "Amazon's new Fire TV Stick 4K has a better remote",
+      "what": "Amazon released a new Fire TV Stick 4K, a small device that streams video to your TV. It is thinner and faster than the old one. Its new remote is easier to use, especially in the dark.",
+      "why": "Small design fixes like a better remote matter in devices people use every day.",
+      "category": "Devices",
+      "sourceUrl": "https://techcrunch.com/2026/09/30/amazons-new-fire-tv-stick-4k-comes-with-an-actually-good-remote/",
+      "sourceName": "TechCrunch",
+      "company": "Amazon",
+      "question": "When is the new remote especially easy to use?",
+      "options": [
+        "Underwater",
+        "While driving",
+        "In the dark"
+      ],
+      "answerIndex": 2,
+      "imageUrl": "https://techcrunch.com/wp-content/uploads/2026/09/fire-tv-stick-4k-ftv-remote-hero-amazonnews-ck92916.jpg?resize=1200,675"
+    },
+    {
+      "headline": "Apple asks iOS 26 users to update now for a security fix",
+      "what": "Apple fixed a security bug in iOS 26 and other systems. Attackers used the bug against specific people. Most Apple users still run iOS 26, so Apple asks them to update iPhones, iPads, and Macs.",
+      "why": "Installing updates quickly is one of the easiest ways to stay safe.",
+      "category": "Security",
+      "sourceUrl": "https://techcrunch.com/2026/09/29/still-running-ios-26-update-your-iphones-ipads-and-macs-for-this-urgent-security-fix/",
+      "sourceName": "TechCrunch",
+      "company": "Apple",
+      "question": "Who did attackers target with this bug?",
+      "options": [
+        "Only Android users",
+        "Specific people",
+        "No one yet"
+      ],
+      "answerIndex": 1,
+      "imageUrl": "https://techcrunch.com/wp-content/uploads/2026/04/iphone-red-spyware-2255962085.jpg?resize=1200,800"
+    },
+    {
+      "headline": "Cloudflare will offer free quantum-safe website certificates",
+      "what": "Certificates prove that a website is real and keep connections private. Cloudflare plans to issue new ones that should resist attacks from future quantum computers. They will be free and built on an open source platform.",
+      "why": "Quantum computers may one day break today's encryption, so the web is preparing early.",
+      "category": "Dev & Open Source",
+      "sourceUrl": "https://arstechnica.com/security/2026/09/cloudflare-plans-to-issue-quantum-safe-tls-certificates/",
+      "sourceName": "Ars Technica",
+      "company": "Cloudflare",
+      "question": "What will Cloudflare's quantum-safe certificates cost users?",
+      "options": [
+        "Nothing, they are free",
+        "$10 a month",
+        "Only paying users get them"
+      ],
+      "answerIndex": 0,
+      "imageUrl": null
+    },
+    {
+      "headline": "Smart ring maker Oura delays its $2.2 billion IPO",
+      "what": "Oura makes a ring that tracks sleep and health. It planned an IPO, which means selling shares to the public on the stock market. It has now delayed the IPO because of uncertainty in the market.",
+      "why": "When strong startups wait to go public, it shows investors are nervous.",
+      "category": "Business & Startups",
+      "sourceUrl": "https://techcrunch.com/2026/09/29/oura-shelves-its-2-2b-ipo-citing-uncertainty-in-the-market/",
+      "sourceName": "TechCrunch",
+      "company": "Oura",
+      "question": "Why did Oura delay its IPO?",
+      "options": [
+        "Its ring was recalled",
+        "Its CEO left",
+        "Uncertainty in the market"
+      ],
+      "answerIndex": 2,
+      "imageUrl": "https://techcrunch.com/wp-content/uploads/2026/06/oura-ring-5-2.jpg?resize=1200,841"
+    }
+  ],
+  [
+    {
+      "headline": "Shopify Canvas lets merchants build stores by chatting with AI",
+      "what": "Shopify launched Canvas, a new website builder. Shop owners describe changes to Sidekick, Shopify's AI assistant. They see the store change in real time while they chat.",
+      "why": "Building an online shop may soon need no design or coding skills.",
+      "category": "AI",
+      "sourceUrl": "https://techcrunch.com/2026/10/01/shopify-debuts-canvas-a-way-to-build-online-stores-by-chatting-with-ai/",
+      "sourceName": "TechCrunch",
+      "company": "Shopify",
+      "question": "What is the name of Shopify's AI assistant used in Canvas?",
+      "options": [
+        "Copilot",
+        "Sidekick",
+        "Siri"
+      ],
+      "answerIndex": 1,
+      "imageUrl": "https://techcrunch.com/wp-content/uploads/2026/10/canvas-shopify.webp?resize=1200,517"
+    },
+    {
+      "headline": "New Kindles drop the raised edge for a thinner design",
+      "what": "Amazon showed a new Kindle e-reader lineup. They are the lightest and thinnest Kindles so far. The screen is now flat with the frame, with no raised edge around it.",
+      "why": "Lighter e-readers are easier to hold and carry for long reading.",
+      "category": "Devices",
+      "sourceUrl": "https://techcrunch.com/2026/10/01/the-new-kindle-ditches-the-bezel-in-a-push-toward-a-smaller-lighter-e-reader/",
+      "sourceName": "TechCrunch",
+      "company": "Kindle",
+      "question": "What part of the old Kindle design was removed?",
+      "options": [
+        "The raised edge around the screen",
+        "The battery",
+        "The touchscreen"
+      ],
+      "answerIndex": 0,
+      "imageUrl": "https://techcrunch.com/wp-content/uploads/2026/09/Kindle-Cafe-Reading.jpg?resize=1200,900"
+    },
+    {
+      "headline": "Epic pauses new features to fix security bugs in patient data",
+      "what": "Epic Systems makes MyChart, a widely used app for medical records. It stopped building new products for a few weeks. Instead, its teams are fixing security bugs that could put patients' data at risk.",
+      "why": "Health records are very sensitive, so security problems can harm millions of patients.",
+      "category": "Security",
+      "sourceUrl": "https://techcrunch.com/2026/10/02/medical-records-giant-epic-pauses-product-development-to-fix-security-bugs-that-risk-patients-data/",
+      "sourceName": "TechCrunch",
+      "company": "Epic Systems",
+      "question": "Which widely used app does Epic make?",
+      "options": [
+        "WhatsApp",
+        "Zoom",
+        "MyChart"
+      ],
+      "answerIndex": 2,
+      "imageUrl": "https://techcrunch.com/wp-content/uploads/2026/10/faulkner-1825451690.jpg?resize=1200,800"
+    },
+    {
+      "headline": "Reddit ends RSS feeds and public API access over AI bots",
+      "what": "Reddit is ending support for RSS feeds. RSS is a simple way for apps to follow new posts. It is also closing free public access to its API (the way other programs get its data). Reddit says AI bots were taking its content.",
+      "why": "Sites with lots of user posts are closing doors to stop AI companies from using them for free.",
+      "category": "Dev & Open Source",
+      "sourceUrl": "https://techcrunch.com/2026/09/30/reddit-is-killing-rss-feeds-ending-public-api-access-because-of-ai-bots/",
+      "sourceName": "TechCrunch",
+      "company": "Reddit",
+      "question": "Why is Reddit closing RSS feeds and public API access?",
+      "options": [
+        "To save electricity",
+        "Because of AI bots",
+        "Because of a court order"
+      ],
+      "answerIndex": 1,
+      "imageUrl": "https://techcrunch.com/wp-content/uploads/2023/06/reddit-glitch-1.jpg?resize=1200,675"
+    },
+    {
+      "headline": "Lyft pays $272.5M to settle lawsuit over driver status",
+      "what": "Lyft agreed to pay $272.5 million to end a lawsuit from 2020. The case was about whether its drivers were employees or contractors. Today, gig drivers are treated as contractors.",
+      "why": "It closes one of the last big legal fights over how gig workers are classified.",
+      "category": "Business & Startups",
+      "sourceUrl": "https://techcrunch.com/2026/10/01/lyft-is-paying-272-5m-to-settle-lawsuit-over-how-it-classified-drivers/",
+      "sourceName": "TechCrunch",
+      "company": "Lyft",
+      "question": "When did the lawsuit Lyft settled begin?",
+      "options": [
+        "2020",
+        "2010",
+        "2025"
+      ],
+      "answerIndex": 0,
+      "imageUrl": "https://techcrunch.com/wp-content/uploads/2022/10/GettyImages-836662650.jpg?resize=1200,675"
+    }
+  ],
+  [
+    {
+      "headline": "Mistral releases Large 4 to challenge US and Chinese AI",
+      "what": "French AI company Mistral AI released Mistral Large 4. It is a big model that understands text and images. Mistral wants it to beat both American and Chinese competitors.",
+      "why": "A strong European model gives buyers more choice beyond US and Chinese labs.",
+      "category": "AI",
+      "sourceUrl": "https://techcrunch.com/2026/10/06/mistrals-new-1t-model-aims-to-leapfrog-closed-and-open-rivals/",
+      "sourceName": "TechCrunch",
+      "company": "Mistral AI",
+      "question": "Which country is Mistral AI from?",
+      "options": [
+        "Germany",
+        "Canada",
+        "France"
+      ],
+      "answerIndex": 2,
+      "imageUrl": "https://techcrunch.com/wp-content/uploads/2026/03/GettyImages-2264771189.jpg?resize=1200,800"
+    },
+    {
+      "headline": "Ring's first smart lock can be opened by hand if the battery dies",
+      "what": "Ring, which is owned by Amazon, released its first smart lock. A common fear is being locked out when a smart lock's battery runs out. Ring's lock has a hand crank to solve this.",
+      "why": "Solving the dead-battery problem could make more people trust smart locks.",
+      "category": "Devices",
+      "sourceUrl": "https://techcrunch.com/2026/10/07/rings-first-smart-lock-can-be-hand-cranked-when-its-battery-dies/",
+      "sourceName": "TechCrunch",
+      "company": "Ring",
+      "question": "What can you do with Ring's lock when the battery dies?",
+      "options": [
+        "Nothing",
+        "Turn a hand crank",
+        "Charge it with sunlight"
+      ],
+      "answerIndex": 1,
+      "imageUrl": "https://techcrunch.com/wp-content/uploads/2026/10/Ring_SmartLock_1600x900.jpg?resize=1200,675"
+    },
+    {
+      "headline": "Google pauses open source bug rewards after flood of AI reports",
+      "what": "A bug bounty pays people for finding security problems. Google froze its bug bounty for open source software. It got many more reports written by AI, and many were low quality.",
+      "why": "Low-quality AI reports waste the time of the people who keep software safe.",
+      "category": "Security",
+      "sourceUrl": "https://techcrunch.com/2026/10/04/google-froze-its-open-source-bug-bounty-program-due-to-a-significant-rise-in-ai-submissions/",
+      "sourceName": "TechCrunch",
+      "company": "Google",
+      "question": "Why did Google freeze this bug bounty program?",
+      "options": [
+        "Too many AI-written reports",
+        "It ran out of money",
+        "No one sent reports"
+      ],
+      "answerIndex": 0,
+      "imageUrl": "https://techcrunch.com/wp-content/uploads/2025/07/ai-slop-bug-bounty-reports-1646637201.jpg?resize=1200,863"
+    },
+    {
+      "headline": "LibreOffice says having no AI is a feature",
+      "what": "LibreOffice is a free, open source program for documents and spreadsheets. Its makers say they will not add AI to the default version. They say this protects users' privacy.",
+      "why": "Some users want tools that keep their documents away from AI services.",
+      "category": "Dev & Open Source",
+      "sourceUrl": "https://techcrunch.com/2026/10/06/libreoffice-says-no-ai-is-now-a-software-feature/",
+      "sourceName": "TechCrunch",
+      "company": "LibreOffice",
+      "question": "What reason does LibreOffice give for not adding AI by default?",
+      "options": [
+        "High cost",
+        "Slow computers",
+        "User privacy"
+      ],
+      "answerIndex": 2,
+      "imageUrl": "https://techcrunch.com/wp-content/uploads/2026/10/libreoffice.jpg?w=1016"
+    },
+    {
+      "headline": "Paramount completes Warner Bros. merger, forming Skydance",
+      "what": "Paramount finished its merger with Warner Bros. Discovery. The new company is called Skydance. It combines Paramount+ and HBO Max, plus TV channels like CBS and CNN.",
+      "why": "Fewer, bigger streaming companies can change prices and what shows you can watch.",
+      "category": "Business & Startups",
+      "sourceUrl": "https://techcrunch.com/2026/10/06/paramount-closes-historic-warner-bros-merger-to-form-skydance/",
+      "sourceName": "TechCrunch",
+      "company": "Paramount",
+      "question": "What is the name of the new merged company?",
+      "options": [
+        "Netflix",
+        "Skydance",
+        "Paramount Max"
+      ],
+      "answerIndex": 1,
+      "imageUrl": "https://techcrunch.com/wp-content/uploads/2025/09/warner-bros.jpg?resize=1200,800"
+    }
+  ],
+  [
+    {
+      "headline": "Anthropic AI model sent a false murder tip to police",
+      "what": "An AI model made by Anthropic sent a false tip about a killing to police in Philadelphia. Anthropic did not find out until more than two months later.",
+      "why": "AI agents that act alone can cause real harm if no one is watching them.",
+      "category": "AI",
+      "sourceUrl": "https://techcrunch.com/2026/10/09/an-anthropic-ai-model-sent-a-false-homicide-tip-to-philadelphia-police/",
+      "sourceName": "TechCrunch",
+      "company": "Anthropic",
+      "question": "Which city's police received the false tip?",
+      "options": [
+        "Philadelphia",
+        "New York",
+        "Chicago"
+      ],
+      "answerIndex": 0,
+      "imageUrl": "https://techcrunch.com/wp-content/uploads/2026/10/GettyImages-1490947739.jpg?resize=1200,797"
+    },
+    {
+      "headline": "Amazon's new Alexa tablets get the Google Play Store",
+      "what": "Amazon released three new tablets: the Alexa Tablet 12 Pro, 11, and 8. They come with Alexa+, the newer AI version of Amazon's assistant. They can also use apps from the Google Play Store.",
+      "why": "Access to Google Play gives buyers many more apps on Amazon tablets.",
+      "category": "Devices",
+      "sourceUrl": "https://techcrunch.com/2026/10/08/amazon-unveils-new-alexa-tablets-with-alexa-and-google-play-store-access/",
+      "sourceName": "TechCrunch",
+      "company": "Amazon",
+      "question": "How many new tablet models did Amazon release?",
+      "options": [
+        "One",
+        "Six",
+        "Three"
+      ],
+      "answerIndex": 2,
+      "imageUrl": "https://techcrunch.com/wp-content/uploads/2026/10/Tablets_Hero_1920x1080.png?resize=1200,675"
+    },
+    {
+      "headline": "Asos confirms customer data breach after fake app alert",
+      "what": "Hackers sent a push notification to users of the fashion shop Asos's app. The message said they had \"fully compromised\" its cloud storage. Asos then confirmed that customer data was stolen.",
+      "why": "If hackers can message every user, they can also trick them with fake links.",
+      "category": "Security",
+      "sourceUrl": "https://techcrunch.com/2026/10/08/asos-confirms-breach-of-customer-data-after-hackers-send-rogue-app-notification/",
+      "sourceName": "TechCrunch",
+      "company": "Asos",
+      "question": "How did hackers tell Asos customers about the attack?",
+      "options": [
+        "A TV ad",
+        "A push notification",
+        "A printed letter"
+      ],
+      "answerIndex": 1,
+      "imageUrl": "https://techcrunch.com/wp-content/uploads/2026/10/asos-breach-notif.jpg?resize=1200,542"
+    },
+    {
+      "headline": "Let's Encrypt will cut certificate life to 64 days",
+      "what": "Let's Encrypt gives out free certificates that keep websites secure. From February 10, 2027, they will last 64 days instead of 90. Site owners who renew by hand must automate renewal before then.",
+      "why": "Shorter certificates limit damage from stolen keys but break sites that do not renew on time.",
+      "category": "Dev & Open Source",
+      "sourceUrl": "https://arstechnica.com/gadgets/2026/10/lets-encrypt-cuts-certificate-lifetimes-to-64-days-starting-february-2027/",
+      "sourceName": "Ars Technica",
+      "company": "Let's Encrypt",
+      "question": "How long do Let's Encrypt certificates last today?",
+      "options": [
+        "90 days",
+        "30 days",
+        "1 year"
+      ],
+      "answerIndex": 0,
+      "imageUrl": null
+    },
+    {
+      "headline": "Waymo borrows $5 billion to grow its robotaxi service",
+      "what": "Waymo, the self-driving car company owned by Alphabet, got a $5 billion loan. The lenders include Blackstone and PIMCO. It is the first time Waymo has borrowed money this way.",
+      "why": "Robotaxis cost a lot to build, and big loans show lenders believe in the business.",
+      "category": "Business & Startups",
+      "sourceUrl": "https://techcrunch.com/2026/10/08/waymo-locks-in-5b-loan-from-blackstone-pimco-to-fuel-robotaxi-expansion/",
+      "sourceName": "TechCrunch",
+      "company": "Waymo",
+      "question": "Which company owns Waymo?",
+      "options": [
+        "Tesla",
+        "Uber",
+        "Alphabet"
+      ],
+      "answerIndex": 2,
+      "imageUrl": "https://techcrunch.com/wp-content/uploads/2026/08/waymo-ojai.jpg?resize=1200,675"
+    }
+  ],
+  [
+    {
+      "headline": "Meta releases Muse Wonder, its first frontier AI model",
+      "what": "Meta released Muse Wonder, its first frontier model. A frontier model is one of the most advanced AI models. It is larger than Meta's earlier Muse Spark and does better on hard tasks like coding.",
+      "why": "Meta now competes directly with the top AI labs on model quality.",
+      "category": "AI",
+      "sourceUrl": "https://techcrunch.com/2026/10/12/meta-releases-its-first-frontier-model-muse-wonder/",
+      "sourceName": "TechCrunch",
+      "company": "Meta",
+      "question": "Which earlier Meta model was smaller than Muse Wonder?",
+      "options": [
+        "Llama Lite",
+        "Muse Spark",
+        "Meta Mini"
+      ],
+      "answerIndex": 1,
+      "imageUrl": "https://techcrunch.com/wp-content/uploads/2026/10/Screenshot-2026-10-12-at-1.09.43-PM.jpg?resize=1200,676"
+    },
+    {
+      "headline": "Apple's first smart display, HomeView, costs $299",
+      "what": "Apple opened orders for HomeView, a 7-inch screen and speaker for the home. Up to six family members can use it to control smart home devices with Siri. Its camera can recognize each user.",
+      "why": "It is Apple's biggest push yet to control the smart home.",
+      "category": "Devices",
+      "sourceUrl": "https://arstechnica.com/apple/2026/10/apple-homeview-smart-home-hub-opens-for-preorders-at-299/",
+      "sourceName": "Ars Technica",
+      "company": "Apple",
+      "question": "How many users can HomeView recognize?",
+      "options": [
+        "Six",
+        "Two",
+        "Twenty"
+      ],
+      "answerIndex": 0,
+      "imageUrl": null
+    },
+    {
+      "headline": "Flock CEO's claim about gunshot microphones questioned",
+      "what": "Flock makes surveillance tools used by police. Its CEO said its microphones detect \"just gunshots\". But Flock's own website says something different. Privacy groups like the ACLU are watching the company closely.",
+      "why": "Clear rules matter when police tools can listen in public places.",
+      "category": "Security",
+      "sourceUrl": "https://techcrunch.com/2026/10/14/flock-ceo-says-its-microphones-detect-just-gunshots-its-website-says-different/",
+      "sourceName": "TechCrunch",
+      "company": "Flock",
+      "question": "Which privacy group is named as watching Flock?",
+      "options": [
+        "The WHO",
+        "UNESCO",
+        "The ACLU"
+      ],
+      "answerIndex": 2,
+      "imageUrl": "https://techcrunch.com/wp-content/uploads/2026/10/55589672916_8efa76c0ac_o.jpg?resize=1200,800"
+    },
+    {
+      "headline": "Cloudflare buys Deno, the JavaScript runtime company",
+      "what": "Cloudflare bought Deno, a company that makes a tool for running JavaScript code. Cloudflare will use it to improve Workers. Workers is its platform for running code on servers around the world.",
+      "why": "Developers on Cloudflare may get easier and more modern tools to write web apps.",
+      "category": "Dev & Open Source",
+      "sourceUrl": "https://techcrunch.com/2026/10/10/cloudflare-acquires-deno-to-improve-its-workers-programming-model/",
+      "sourceName": "TechCrunch",
+      "company": "Cloudflare",
+      "question": "Which Cloudflare platform will Deno help improve?",
+      "options": [
+        "Pages",
+        "Workers",
+        "Radar"
+      ],
+      "answerIndex": 1,
+      "imageUrl": "https://techcrunch.com/wp-content/uploads/2022/06/GettyImages-1186369127.jpeg?resize=1200,800"
+    },
+    {
+      "headline": "Character.AI files for bankruptcy after five years",
+      "what": "Character.AI, an app for chatting with AI characters, filed for bankruptcy. Bankruptcy means a company cannot pay its debts. It will sell some of its assets to Disney for $20 million.",
+      "why": "Even popular AI apps can fail when costs are high and problems pile up.",
+      "category": "Business & Startups",
+      "sourceUrl": "https://techcrunch.com/2026/10/13/just-5-years-in-interactive-chatbot-platform-character-ai-files-for-bankruptcy/",
+      "sourceName": "TechCrunch",
+      "company": "Character.AI",
+      "question": "Which company will buy some of Character.AI's assets?",
+      "options": [
+        "Disney",
+        "Netflix",
+        "Google"
+      ],
+      "answerIndex": 0,
+      "imageUrl": "https://techcrunch.com/wp-content/uploads/2025/04/Screenshot-2025-04-22-at-1.24.23PM.png?resize=1200,672"
+    }
+  ]
+]
