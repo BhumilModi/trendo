@@ -7,7 +7,7 @@ Five tech stories a day, in plain English. Read each one, keep your streak, clim
 
 ## Run it locally
 
-You need Node.js 20 or newer (built and tested on Node 24).
+You need Node.js 22.18 or newer (built and tested on Node 24). The tests run TypeScript directly with `node --test`, which older versions cannot do.
 
 ```bash
 git clone https://github.com/BhumilModi/trendo.git
